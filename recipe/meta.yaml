@@ -30,7 +30,6 @@ requirements:
 test:
   imports:
     - mdv
-    - mdv.tests
   commands:
     - pip check
     - set PYTHONUTF8=1
