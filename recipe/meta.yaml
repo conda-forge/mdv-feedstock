@@ -22,10 +22,9 @@ requirements:
     - pip
     - python {{ python_min }}
   run:
+    - python >={{ python_min }}
     - markdown
     - pygments
-    - python >={{ python_min }},<3.9
-    - tabulate
 
 test:
   imports:
